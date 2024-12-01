@@ -5,7 +5,7 @@ def test_example_simple_piece():
         search="Sample input"
     )
     output_data = piece_dry_run(
-        "ExampleSleepPiece",
+        "InputPiece",
         input_data,
     )
 

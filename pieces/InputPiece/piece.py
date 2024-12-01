@@ -3,7 +3,7 @@ from .models import InputModel, OutputModel
 from time import sleep
 
 
-class ExampleSleepPiece(BasePiece):
+class InputPiece(BasePiece):
 
     def piece_function(self, input_data: InputModel):
 
@@ -13,5 +13,5 @@ class ExampleSleepPiece(BasePiece):
 
         # Return output
         return OutputModel(
-            message=search,
+            message=message,
         )
